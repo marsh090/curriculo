@@ -1,0 +1,80 @@
+html,body,h1,h2,h3,h4,h5,h6 {
+  font-family: "Roboto", sans-serif
+  scroll-behavior: smooth;
+
+}
+a{
+  text-decoration: none;
+}
+p{
+  color: black;
+}
+
+
+.bIcons{
+ font-size: 30px; 
+}
+.btxt{
+ font-size: 20px; 
+  margin-bottom: 0%;
+}
+
+#waves{
+  background-image: url(bWaves.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+
+
+button {
+ width: 300px;
+ height: 45px;
+ font-size: 15px;
+ cursor: pointer;
+ border: none;
+ outline: none;
+ background: transparent;
+ color: black;
+ font-family: 'Roboto', sans-serif;
+ font-weight: 700;
+ position: relative;
+ transition: all 0.3s;
+ z-index: 1;
+}
+
+button::before {
+ content: "";
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 5px;
+ height: 100%;
+ background-color: crimson;
+ z-index: -1;
+ transition: all 0.3s;
+}
+
+button:hover::before {
+ width: 100%;
+}
+
+button:hover {
+ color: white;
+}
+
+button:active:before {
+ background: #crimson;
+}
+
+
+.glassCard{
+  background: rgba( 255, 255, 255, 0.2 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 9px );
+  -webkit-backdrop-filter: blur( 9px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}

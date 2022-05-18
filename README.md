@@ -1,4 +1,5 @@
-# curriculo
+<h1>Curriculo</h1>
+
 My project of a curriculum for university   
 Aluno - Lucas Zanon Guarnier   
 Turma - CC2M   
